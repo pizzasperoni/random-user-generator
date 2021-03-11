@@ -8,6 +8,10 @@ html,
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+footer {
+  background-color: red;
+  height: 200px;
+}
 
 #app {
   width: 400px;
@@ -41,6 +45,9 @@ img {
   border-color: pink;
   background-color: pink;
   color: #333;
+}
+.credits {
+  margin: 20px;
 }
 
 button {

@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <title>Random User Generator</title>
 </head>
 <body>
@@ -13,10 +14,13 @@
     <h1>{{firstName}} {{lastName}}</h1>
     <h3>Email: {{email}}</h3>
     <button v-on:click="getUser()" :class="gender">Get Random User</button>
-
+    <div class="credits">
+      <a href="https://github.com/pizzasperoni/random-user-generator" target="_blank">
+        <i class="fab fa-github"></i>
+        Github
+      </a>
+    </div>
   </div>
-  <h1>Hello {{firstName}}</h1>
-
   <script src="https://unpkg.com/vue@3.0.5"></script>
   <script src="app.js"></script>
 </body>
